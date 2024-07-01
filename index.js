@@ -90,13 +90,7 @@ function finishOrder() {
         total.value = "";
         cash.value = "";
         change.value = "";
-        qty1.value = "";
-        qty2.value = "";
-        qty3.value = "";
-        qty4.value = "";
-        qty5.value = "";
-        qty6.value = "";
-      
+          }
     } else if (totalAmount == 0) {
         alert("Please add items to your order.");
     } else {
