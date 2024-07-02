@@ -34,7 +34,7 @@ function addOrder() {
 
     if (parseFloat(qty1.value) > 0) {
         var order1 = qty1.value + " pc/s x " + price1.textContent + " - " + product1.textContent + " - Php " + (parseFloat(qty1.value) * parseFloat(price1.textContent)).toFixed(2) + "\n";
-        orders += ;
+        carts.textContent +=order
         totalAmount += parseFloat(qty1.value) * parseFloat(price1.textContent);
     }
 
