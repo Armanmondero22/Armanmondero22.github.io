@@ -40,6 +40,7 @@ function addOrder() {
 
     carts.textContent = orders;
     total.value = "Php " + totalAmount.toFixed(2);
+    calculateChange();
 }
 
 function calculateChange() {
